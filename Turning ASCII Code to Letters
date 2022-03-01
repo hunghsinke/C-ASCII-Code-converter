@@ -1,0 +1,18 @@
+//This is a program turning ASCII code to Letters
+
+#include <iostream>
+using namespace std;//declaring std on a global level
+
+int main()
+{
+    int n1, n2, n3, n4, n5;//declare integer variables
+    cout << "Enter 5 3-digit numbers: ";//prompt user to enter ASCII code
+    
+    cin >> n1 >> n2 >> n3 >> n4 >> n5;//store the input in the variables
+    //display output by converting ASCII to letters
+    cout << "Your Letters are: " << char(n1) << " " << char(n2)
+        << " " << char(n3) << " " << char(n4) << " " << char(n5);
+
+    system("pause>0");
+    
+}
